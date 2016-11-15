@@ -27,10 +27,13 @@
   "dependencies": {
     "colors": "^1.1.2",
     "require-env": "0.0.4",
-    "sauce-connect-launcher": "^0.13.0",
-    "yargs": "^3.30.0"
+    "yargs": "^6.4.0"
+  },
+  "peerDependencies": {
+    "sauce-connect-launcher": "*"
   },
   "devDependencies": {
-    "mocha": "^2.3.4"
+    "mocha": "^3.1.2",
+    "sauce-connect-launcher": "^1.0.0"
   }
 }
